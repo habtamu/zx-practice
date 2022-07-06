@@ -2,7 +2,7 @@
   "name": "zx-practice",
   "version": "1.0.0",
   "description": "- [https://github.com/google/zx]     - npm i -g zx     - npm install chalk",
-  "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
