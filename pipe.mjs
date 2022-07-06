@@ -1,4 +1,5 @@
 #!/usr/bin/env zx
+import chalk from 'chalk';
 
 $.verbose = false
 
@@ -6,4 +7,5 @@ $.verbose = false
 //Message: HELLO WORLD
 
 let message = await $`echo "Hello world"`.pipe($`tr '[:lower:]' '[:upper:]'`)
-console.log(`Message: ${message}`)
+console.log(chalk.blue(`Message: ${message}`))
+
